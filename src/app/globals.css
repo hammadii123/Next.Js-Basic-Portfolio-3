@@ -14,6 +14,8 @@
   gap: 50px;
   list-style-type: none;
   color: white;
+  height: 70px;
+  align-items: center;
 }
 
 .textParent {
@@ -24,22 +26,30 @@
 .textParent span {
   color: #4f46e5;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 .textParent p {
   line-height: 1.6;
   font-size: 70px;
 }
 
-.leftside {
+.leftSide {
   width: 50% !important;
   display: flex;
   /* justify-items: center; */
   justify-content: center;
 }
+.leftSide .textParent {
+  width: 100%;
+  font-size: x-large;
+}
 
 .rightside {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .rightside img {
   border: 4px solid #f3f4f6;
